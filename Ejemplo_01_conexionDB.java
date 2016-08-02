@@ -1,14 +1,14 @@
 /*
-Este es un sencillo ejemplo para establecer una conexión con una base de datos
-a través de la API JDBC. Una vez creada la base de datos necesitamos saber cual
-es el controlador y la URL de de esta.
+Este es un sencillo ejemplo para establecer una conexiÃ³n con una base de datos
+a travÃ©s de la API JDBC. Una vez creada la base de datos necesitamos saber cual
+es el controlador y la URL de esta.
 Controlador -> "org.apache.derby.jdbc.EmbeddedDriver"
 URL -> "jdbc:derby://localhost:1527/ejemploDB;create=true"
-La forma para conectarse consiste en cargar el controlador en memoria a través del
-método 'forName¡ de la clase 'Class' y a continuación establecer la conexión mediante 
+La forma para conectarse consiste en cargar el controlador en memoria a travÃ©s del
+mÃ©todo 'forNameÂ¡ de la clase 'Class' y a continuaciÃ³n establecer la conexiÃ³n mediante 
 un objeto de la clase Connection
 Excepciones:
-ClassNotFoundException -> Lanzada por el método 'forName' de la clase 'Class"
+ClassNotFoundException -> Lanzada por el mÃ©todo 'forName' de la clase 'Class"
 SQLException -> Lanzada por la clase Connection
 */
 package Java_derby;
@@ -24,12 +24,12 @@ public class Ejemplo_01_conexionDB {
    
    public static void main(String[] args){
        
-       Connection cn = null;    //Clase Connection para manejar la conexión cnn la DDBB
+       Connection cn = null;    //Clase Connection para manejar la conexiÃ³n cnn la DDBB
        //Conectar con la DDBB
        try{
            //Carga del driver
            Class.forName(DRIVER);
-           //Establece la conexión cn la DDBB
+           //Establece la conexiÃ³n cn la DDBB
            cn = DriverManager.getConnection(URL);
            System.out.println("Conexion establecida con la bases de datos");
            
