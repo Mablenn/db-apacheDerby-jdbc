@@ -42,10 +42,5 @@ public class Ejemplo_01_conexionDB {
    }//Fin main
 } //Fin clase
 
-/*
-    En 4 pasos:
-    1 - Cargar el Controlador para Java DB 
-    3 - Establecer la conexion a través de un objeto Connection
-    3 - Crear objeto Statement a través del cual se realizarán las consultas
-    4 - Objeto ResultSet para obtener resultado de la consulta
-*/
+
+
