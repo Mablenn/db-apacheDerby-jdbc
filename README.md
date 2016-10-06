@@ -1,2 +1,2 @@
-Ejemplos de conexión y consultas a bases de datos
-a través de JBDC
+Ejemplos de conexiÃ³n y consultas a bases de datos
+a travÃ©s de JBDC
