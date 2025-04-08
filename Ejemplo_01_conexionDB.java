@@ -33,7 +33,7 @@ public class Ejemplo_01_conexionDB {
        try{
            //Carga del driver
            Class.forName(DRIVER);
-           //Establece la conexión cn la DDBB
+           //Establece la conexión con la DDBB
            cn = DriverManager.getConnection(URL);
            System.out.println("Conexion establecida con la bases de datos");
            
